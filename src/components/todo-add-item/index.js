@@ -1,3 +1,1 @@
-import TodoAddItem from './todo-add-item';
-
-export default TodoAddItem;
+export { default } from './todo-add-item.component';
