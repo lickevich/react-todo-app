@@ -8,7 +8,7 @@ import { initialTodoData } from './app.constants';
 import { createTodoItem } from './app.utils';
 import './styles.css';
 
-const AppComponent = () => {
+const App = () => {
   const [todoData, setTodoData] = useState(initialTodoData);
   const [status, setStatus] = useState('all');
   const [term, setTerm] = useState('');
@@ -95,4 +95,4 @@ const AppComponent = () => {
   );
 };
 
-export default AppComponent;
+export default App;
